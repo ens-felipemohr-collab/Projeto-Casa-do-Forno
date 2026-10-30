@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Conheça a Casa do Forno, um restaurante de comida caseira, massas e sobremesas em União da Vitória.">
+    <meta name="theme-color" content="#803d2c">
+    <title>Casa do Forno | Restaurante</title>
+    <link rel="icon" href="imagens/icone.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="inicio">
+        <div class="cabecalho container">
+            <a class="logo" href="#inicio" aria-label="Casa do Forno - voltar ao início">
+                <span class="logo-icone" aria-hidden="true">CF</span>
+                <span class="logo-nome">Casa do <strong>Forno</strong></span>
+            </a>
+
+            <div class="informacoes-topo">
+                <p>Almoço e jantar</p>
+                <p>União da Vitória, PR</p>
+            </div>
+        </div>
+
+        <nav class="menu" aria-label="Menu principal">
+            <div class="container links-menu">
+                <a href="#inicio">Início</a>
+                <a href="#sobre">Sobre nós</a>
+                <a href="#cardapio">Cardápio</a>
+                <a href="#localizacao">Localização</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="apresentacao container" id="sobre" aria-labelledby="titulo-apresentacao">
+            <div class="apresentacao-imagem">
+                <img src="imagens/ambiente.jpg" alt="Salão aconchegante com mesas de madeira e iluminação quente"
+                    width="768" height="512" fetchpriority="high">
+            </div>
+
+            <div class="apresentacao-texto">
+                <p class="destaque">BEM-VINDO A CASA DO FORNO</p>
+                <h1 id="titulo-apresentacao">Comida boa tem gosto de casa.</h1>
+                <p>
+                    Aqui você encontra comida caseira, massas e sobremesas para aproveitar
+                    uma boa refeição, seja no almoço ou no jantar.
+                </p>
+                <p>
+                    Nosso cardápio reúne receitas conhecidas e pratos preparados com cuidado.
+                    Tudo isso em um ambiente tranquilo, para reunir a família e os amigos.
+                </p>
+                <a class="link-destaque" href="#cardapio">Conheça nosso cardápio &rarr;</a>
+            </div>
+        </section>
+
+        <section class="secao-cardapio" id="cardapio" aria-labelledby="titulo-cardapio">
+            <div class="container">
+                <div class="titulo-secao">
+                    <p class="destaque">NOSSA COZINHA</p>
+                    <h2 id="titulo-cardapio">Sabores para cada momento</h2>
+                    <p>Do almoço de todo dia à sobremesa do fim de semana.</p>
+                </div>
+
+                <div class="lista-pratos">
+                    <article class="prato">
+                        <img src="imagens/prato-caseiro.jpg"
+                            alt="Prato caseiro com arroz, feijão, carne grelhada e salada" width="768" height="512"
+                            loading="lazy">
+                        <div class="prato-descricao">
+                            <h3>Pratos da casa</h3>
+                            <p>Refeições completas, com acompanhamentos e opções que mudam durante a semana.</p>
+                        </div>
+                    </article>
+
+                    <article class="prato">
+                        <img src="imagens/massas.jpg" alt="Massa com molho de tomate, queijo e folhas de manjericão"
+                            width="768" height="512" loading="lazy">
+                        <div class="prato-descricao">
+                            <h3>Massas</h3>
+                            <p>Receitas com molhos tradicionais, feitas para quem gosta de uma boa massa.</p>
+                        </div>
+                    </article>
+
+                    <article class="prato">
+                        <img src="imagens/sobremesa.jpg" alt="Fatia de bolo de chocolate acompanhada de sorvete"
+                            width="768" height="512" loading="lazy">
+                        <div class="prato-descricao">
+                            <h3>Sobremesas</h3>
+                            <p>Doces para encerrar a refeição, incluindo os clássicos que todo mundo gosta.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="convite" aria-labelledby="titulo-convite">
+            <div class="container convite-conteudo">
+                <p class="destaque">ESPERAMOS VOCÊ</p>
+                <h2 id="titulo-convite">Que tal vir almoçar com a gente?</h2>
+                <p>Confira o endereço e escolha um bom momento para nos visitar.</p>
+                <a class="botao" href="#localizacao">Veja como chegar</a>
+            </div>
+        </section>
+
+        <section class="localizacao container" id="localizacao" aria-labelledby="titulo-localizacao">
+            <div class="titulo-secao">
+                <p class="destaque">VENHA NOS VISITAR</p>
+                <h2 id="titulo-localizacao">Onde estamos</h2>
+                <p>Informações para você planejar sua visita.</p>
+            </div>
+
+            <div class="grade-localizacao">
+                <div class="mapa">
+                    <img src="imagens/mapa-centro.svg" alt="Mapa ilustrativo da região central de União da Vitória"
+                        width="700" height="440" loading="lazy">
+                </div>
+
+                <div class="dados-localizacao">
+                    <h3>Endereço</h3>
+                    <p>Rua das Araucárias, 120<br>Centro - União da Vitória / PR</p>
+
+                    <h3>Horário de atendimento</h3>
+                    <p>Segunda a sábado<br>11h às 14h e 18h às 22h</p>
+
+                    <a class="link-destaque" href="https://www.openstreetmap.org/#map=15/-26.230/-51.088"
+                        target="_blank" rel="noopener noreferrer">
+                        Ver região no mapa &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao-perguntas" id="perguntas" aria-labelledby="titulo-perguntas">
+            <div class="container perguntas-conteudo">
+                <div class="titulo-secao">
+                    <p class="destaque">TIRE SUAS DÚVIDAS</p>
+                    <h2 id="titulo-perguntas">Perguntas frequentes</h2>
+                </div>
+
+                <details>
+                    <summary>Preciso reservar uma mesa?</summary>
+                    <p>Não é necessário, mas para grupos maiores recomendamos combinar a visita com antecedência.</p>
+                </details>
+
+                <details>
+                    <summary>Vocês têm opções vegetarianas?</summary>
+                    <p>Sim. A disponibilidade pode variar conforme o cardápio do dia.</p>
+                </details>
+
+                <details>
+                    <summary>Posso pedir uma refeição para viagem?</summary>
+                    <p>Algumas opções podem ser preparadas para retirada, de acordo com a disponibilidade da cozinha.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>O cardápio muda durante a semana?</summary>
+                    <p>Sim. Além dos pratos tradicionais, temos opções diferentes ao longo da semana.</p>
+                </details>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape" id="contato">
+        <div class="container rodape-colunas">
+            <div>
+                <h2>Links úteis</h2>
+                <a href="#inicio">Início</a>
+                <a href="#cardapio">Cardápio</a>
+                <a href="#perguntas">Perguntas frequentes</a>
+            </div>
+
+            <div>
+                <h2>Fale conosco</h2>
+                <p>União da Vitória, PR</p>
+                <p>Segunda a sábado<br>11h às 14h e 18h às 22h</p>
+                <a href="#localizacao">Ver endereço</a>
+            </div>
+
+            <div>
+                <h2>Redes sociais</h2>
+                <p>Acompanhe as novidades e os pratos da casa.</p>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram &nearr;</a>
+            </div>
+        </div>
+
+        <div class="container rodape-final">
+            <p>&copy; 2026 Casa do Forno</p>
+        </div>
+    </footer>
+</body>
+
+</html>
